@@ -9,9 +9,6 @@ bc.onmessage = function (ev) {
   document.querySelector('#message').value = String(ev.data);
   
 } /* receive */
-bc.postMessage("hi"); 
-// bc.postMessage('This is a test message.'); /* send */
-
  
 document.querySelector('#message').addEventListener('keyup', function (ev) {
   var text = document.querySelector('#message').value;
